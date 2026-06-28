@@ -55,21 +55,29 @@ specification rather than as a raw correlation.
 
 ## Exploratory Data Analysis
 
+&nbsp;
+
 ![](images/fertility_trend_lines.png)
 
 This chart shows the near universal decline in fertility rates across Europe. 
 The 2.1 replacement level, the point at which a population sustains itself without migration as defined by the United Nations and World Bank, 
 is marked in red. By 1990 almost every country had already fallen below this threshold and rates have remained there ever since.
 
+&nbsp;
+
 ![](images/average_fertility_by_country.png)
 
 Only Ireland and Albania averaged above replacement level over the full period. 
 Ukraine and Poland sit at the bottom, averaging around 1.35 to 1.40, well below the level needed to sustain population without migration.
 
+&nbsp;
+
 ![](images/fertility_vs_gdp_scatter.png)
 
 The scatter shows most observations clustered below the 2.1 replacement line. 
 The extreme GDP outliers correspond to post-Soviet transition years and the 2009 financial crisis, both of which are controlled for in the model.
+
+&nbsp;
 
 ![](images/correlation_heatmap.png)
 
@@ -81,6 +89,7 @@ and time variation is present in the raw data. The fixed effects model strips th
 ## Outcomes
 
 ![](images/results_summary_table.png)
+
 
 A one unit increase in fertility rate is associated with a 4.66 percentage point increase in GDP per capita growth, 
 after controlling for country and year fixed effects. The result is statistically significant at the 1% level, meaning the relationship 
@@ -101,4 +110,3 @@ Fertility rate is treated here as the primary demographic variable, but it does 
 
 **4) No comparison against other indicators:** 
 This analysis focuses on whether fertility rate affects GDP growth, but it does not test how fertility rate ranks as a predictor relative to other economic drivers such as unemployment, inflation, net wages or investment. A more complete study would include multiple indicators in a single model and assess whether birth rate remains a significant explanatory variable once those factors are controlled for. That comparison would provide much stronger evidence for the central argument that demographic decline is one of the most important structural risks facing European economies.
-<img width="451" height="694" alt="image" src="https://github.com/user-attachments/assets/218315eb-8d93-4a04-ba25-e6b342b57251" />
