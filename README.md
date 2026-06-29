@@ -41,7 +41,7 @@ Remaining missing values were dropped to produce a balanced dataset of 915 obser
 
 **3) Exploratory Data Analysis:**
 A full visual exploration was carried out before modelling. This included a fertility rate trend chart across all 30 countries 
-with the 2.1 replacement level marked, a country level bar chart ranking average fertility rates, a scatter plot of fertility rate against GDP per capita growth, and a correlation heatmap. These visuals were used to identify relationships, detect outliers and build the analytical narrative ahead of the regression.
+with the replacement level marked, a country level bar chart ranking average fertility rates, a scatter plot of fertility rate against GDP per capita growth, and a correlation heatmap. These visuals were used to identify relationships, detect outliers and build the analytical narrative ahead of the regression.
 
 **4) Panel Data Modelling:**
 A fixed effects OLS regression was specified using country and year dummies to control for unobserved country specific characteristics and common time trends. This approach isolates the within-country variation in fertility rate and its effect on GDP per capita growth, removing confounding factors that would otherwise bias the estimate.
@@ -60,22 +60,22 @@ specification rather than as a raw correlation.
 ![](images/fertility_trend_lines.png)
 
 This chart shows the near universal decline in fertility rates across Europe. 
-The 2.1 replacement level, the point at which a population sustains itself without migration as defined by the United Nations and World Bank, 
-is marked in red. By 1990 almost every country had already fallen below this threshold and rates have remained there ever since.
+The 2.1 replacement level is the point at which a population sustains itself without migration was defined by the United Nations and World Bank. 
+By 1990 almost every country had already fallen below this threshold and rates have remained there ever since.
 
 &nbsp;
 
 ![](images/average_fertility_by_country.png)
 
 Albania comes closest to the replacement level, with every other country falling below the 2.1 threshold over the full period. 
-Ukraine and Poland sit at the bottom, averaging around 1.35 to 1.40, well below the level needed to sustain population without migration.
+Italy and Spain sit at the bottom, well below the level needed to sustain population without migration.
 
 &nbsp;
 
 ![](images/fertility_vs_gdp_scatter.png)
 
 The scatter shows most observations clustered below the 2.1 replacement line. 
-The extreme GDP outliers correspond to post-Soviet transition years and the 2009 financial crisis, both of which are controlled for in the model.
+The extreme GDP outliers correspond to post-Soviet transition years and the 2008 financial crisis, both of which are controlled for in the model.
 
 &nbsp;
 
