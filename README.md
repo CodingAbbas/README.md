@@ -4,7 +4,6 @@
 This project started as an econometric study from my time at university.
 It examines whether declining birth rates across Europe are negatively affecting economic growth, 
 using panel data across 30 European countries from 1990 to 2020.
-
 The objective was to quantify the relationship between fertility rate and GDP per capita growth across Europe using a fixed effects panel data model, controlling for country specific characteristics and shared time trends. Fertility rate was expected to show a positive relationship with GDP growth, 
 with countries sustaining higher birth rates performing better economically over time.
 
