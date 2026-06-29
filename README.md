@@ -11,8 +11,8 @@ with countries sustaining higher birth rates performing better economically over
 &nbsp;
 
 ## What the Data Revealed
-The results were more direct than anticipated. Fertility rate had a significant negative effect on GDP per capita growth. 
-The increase in one unit fertility rate was associated with a 4.66% increase in GDP growth, after controlling for all country and year effects. 
+The results were more direct than anticipated. Fertility rate had a significant positive effect on GDP per capita growth. 
+The increase of one unit in fertility rate was associated with a 4.66% increase in GDP per capita growth, after controlling for all country and year effects. 
 The relationship was more immediate and economically meaningful than expected.
 
 The model also captured sharp GDP contractions in 1991, 1992, 2009 and 2020, corresponding to post-Soviet transition, the global financial crisis and COVID. These shocks affected low fertility countries disproportionately more, reinforcing the argument that economies with weaker demographic foundations are more exposed to external shocks.
@@ -90,8 +90,7 @@ and time variation is present in the raw data. The fixed effects model strips th
 
 ![](images/results_summary_table.png)
 
-
-A one unit increase in fertility rate is associated with a 4.66 percentage point increase in GDP per capita growth, 
+A one unit increase in fertility rate is associated with a 4.66% increase in GDP per capita growth, 
 after controlling for country and year fixed effects. The result is statistically significant at the 1% level, meaning the relationship 
 is unlikely to be driven by chance. The R-squared of 0.43 indicates the model explains 43% of the variation in GDP growth across the panel, 
 which is a strong result for macroeconomic data of this type. The model was estimated across 915 observations covering 30 countries over a 30 year period.
@@ -99,6 +98,7 @@ which is a strong result for macroeconomic data of this type. The model was esti
 &nbsp;
 
 ## Limitations
+
 **1) Lag effects not modelled:** 
 Birth rate changes do not affect the economy immediately. A child born today does not enter the workforce for roughly 20 years, meaning the true economic consequences of fertility decline take decades to materialise. By using fertility rate and GDP growth measured in the same year, this model likely understates the real long run relationship. A stronger specification would use fertility rate lagged by 10 to 20 years, allowing the model to capture the delayed channel through which demographics feed into growth.
 
@@ -106,7 +106,8 @@ Birth rate changes do not affect the economy immediately. A child born today doe
 The Durbin-Watson statistic for the GDP model came in at 1.114, below the ideal value of 2, indicating that the residuals are correlated across time within each country. This means the standard errors produced by the model may be too small, which can make results appear more statistically significant than they truly are. Using robust standard errors clustered at the country level would correct for this and produce more reliable inference.
 
 **3) Single analysis:** 
-Fertility rate is treated here as the primary demographic variable, but it does not operate in isolation. Immigration can offset population decline, shifts in mortality rates change the age structure independently of births, and labour force participation shapes how demographic changes translate into output. None of these are controlled for, meaning the fertility rate coefficient may be absorbing some of their influence.
+Fertility rate is treated here as the primary demographic variable, but it does not operate in isolation. 
+Immigration can offset population decline, shifts in mortality rates change the age structure independently of births, and labour force participation shapes how demographic changes translate into output. None of these are controlled for, meaning the fertility rate coefficient may be absorbing some of their influence.
 
 **4) No comparison against other indicators:** 
 This analysis focuses on whether fertility rate affects GDP growth, but it does not test how fertility rate ranks as a predictor relative to other economic drivers such as unemployment, inflation, net wages or investment. A more complete study would include multiple indicators in a single model and assess whether birth rate remains a significant explanatory variable once those factors are controlled for. That comparison would provide much stronger evidence for the central argument that demographic decline is one of the most important structural risks facing European economies.
