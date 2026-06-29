@@ -15,7 +15,7 @@ The results were more direct than anticipated. Fertility rate had a significant 
 The increase of one unit in fertility rate was associated with a 4.66% increase in GDP per capita growth, after controlling for all country and year effects. 
 The relationship was more immediate and economically meaningful than expected.
 
-The model also captured sharp GDP contractions in 1991, 1992, 2009 and 2020, corresponding to post-Soviet transition, the global financial crisis and COVID. These shocks affected low fertility countries disproportionately more, reinforcing the argument that economies with weaker demographic foundations are more exposed to external shocks.
+The model also captured sharp GDP contractions in 1991, 1992, 2009 and 2020, corresponding to the Post-Soviet transition, financial crisis and Covid19. These shocks affected low fertility countries disproportionately more, reinforcing the argument that economies with weaker demographic foundations are more exposed to external shocks.
 
 &nbsp;
 
